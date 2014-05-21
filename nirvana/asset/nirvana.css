@@ -1,0 +1,118 @@
+﻿/*
+* global basic
+*/
+html {
+    background: #fff;
+    color: #333;
+    font-family: "微软雅黑", "宋体", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    /*overflow-y: scroll;*/
+}
+
+body, div, p, dl, dt, dd, ul, ol, li, hr, pre, table, td, th, fieldset, legend,
+input, button, textarea, form, img, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, iframe, img {
+    border: 0;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+a {
+    color: #0179B0;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a.none {
+    color: #0179B0;
+    text-decoration: none;
+}
+
+a.none:hover {
+    text-decoration: underline;
+}
+
+/*
+* single page
+*/
+.header, .nav-body, .body {
+    width: 985px;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    padding: 8px 0 12px 0;
+}
+
+.header-logo {
+
+}
+
+.header-login {
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 8px;
+    text-align: right;
+}
+
+.body {
+    min-height: 330px;
+}
+
+.footer {
+    border-top: 2px solid #5C6A75;
+    clear: both;
+    color: #999999;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-copyright, .footer-copyright a {
+    height: 20px;
+    line-height: 20px;
+    color: #666666;
+}
+
+/*
+* form
+*/
+.field {
+    clear: both;
+    height: 45px;
+}
+
+.field-fix {
+    padding-top: 10px;
+}
+
+.field-title {
+    float: left;
+    width: 120px;
+}
+
+.field-content {
+    float: left;
+    width: 220px;
+}
+
+.field-tip {
+    float: left;
+    padding-left: 5px;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "demo",
+  "author": "dengyijun@baidu.com",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-watch": "~0.6.1",
+    "fs.extra": "~1.2.1",
+    "express": "~4.0.0",
+    "connect-multiparty": "~1.0.3"
+  }
+}
