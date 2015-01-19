@@ -1,0 +1,35 @@
+{
+    "kw": "优衣库",
+    "list": [
+        {
+            "title": "银泰正品优衣库羽绒服8折起",
+            "link": "http://www.baidu.com",
+            "discount": 0.2,
+            "discountLink": "",
+            "desc": "来店有喜，买即送拜年贺礼",
+            "distance": "1.0",
+            "address": "",
+            "icon": ""
+        },
+        {
+            "title": "银泰正品优衣库西服8折起",
+            "link": "http://www.baidu.com",
+            "discount": 0.2,
+            "discountLink": "",
+            "desc": "来店有双喜",
+            "distance": "1.1",
+            "address": "",
+            "icon": ""
+        },
+        {
+            "title": "银泰正品优衣库卫衣8折起",
+            "link": "http://www.baidu.com",
+            "discount": 0.2,
+            "discountLink": "",
+            "desc": "速来",
+            "distance": "0.95",
+            "address": "",
+            "icon": ""
+        }
+    ]
+}

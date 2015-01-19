@@ -1,0 +1,1 @@
+define("common/flags/Flag",["require","exports","module"],function(){var e=function(e,n,t){this.name=e,this.isOn=n,this.desc=t};return e});

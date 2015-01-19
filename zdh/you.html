@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>百度一下，你就知道</title>
+    <link rel="stylesheet" href="asset/css/entry/baidu.css?r1421395069453=1">
+</head>
+<body>
+    <div id="page">
+        <div id="page-hd">
+            <div class="searchboxtop">
+                <form class="se-form" id="se-form">
+                    <div class="con-wrap">
+                        <textarea autocomplete="off" autocorrect="off" maxlength="64"
+                            id="kw" class="se-input" data-sug="1"></textarea>
+                        <div class="se-inner">
+                            <div id="cross" class="cross"></div>
+                            <button id="se_bn" class="se-bn" type="submit">
+                                <span>百度一下</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="se_box" class="se-box">
+                        <div class="suggest-div">
+                            <div class="zdh-panel" id="suggest-panel"></div>
+                            <div class="suggest-title">
+                                <div class="suggest-at">直达号</div>
+                            </div>
+                            <div class="suggest-close">关闭</div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="page_bd">
+            <div class="merchant-panel"></div>
+            <div id="results" class="results">
+                <div class="fc-container">
+                    <div class="fc-block">
+                        <a class="fc-title" href="#">
+                            <em>优衣库</em>官方旗舰店 - 天猫触屏版
+                            <div class="fc-desc">UT<em>优衣库</em>
+                                印花系列MEN  男装UT全商品 SPRZ NY PEANUTS/SNOOPY Almond Surfboards Mr.Men Little Miss 世界...
+                            </div>
+                        </a>
+                        <div class="fc-footer">
+                            <span class="fc-showurl-14">uniqlo.m.tmall.com 98k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="asset/esl.js"></script>
+    <script>
+        require.config({
+        'baseUrl': 'asset',
+        'paths': {
+            'flags': 'common/flags/Flags',
+            'ajax': 'common/ajax/Ajax',
+            'jquery': 'common/lib/jquery.min'
+        },
+        'urlArgs': 'r1421395069453=1',
+        'config': { 'flags': { 'devtoggle': true } }
+    });
+        require(['entry/you']);
+    </script>
+</body>
+</html>

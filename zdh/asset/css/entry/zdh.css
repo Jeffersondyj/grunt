@@ -1,0 +1,49 @@
+/*
+ * 直达号控件less
+ */
+.zdh-panel {
+  min-height: 140px;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+.zdh-panel .trade {
+  float: left;
+  width: 86px;
+}
+.zdh-panel .trade .block {
+  text-align: center;
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  background: #eee;
+}
+.zdh-panel .trade .current {
+  color: #d04440;
+  background: #fff;
+}
+.zdh-panel .wrap {
+  position: relative;
+  margin: 5px 0 0 86px;
+  padding: 3px 0 0 15px;
+  color: #222;
+  line-height: 28px;
+  font-size: 14px;
+}
+.zdh-panel .wrap .block {
+  float: left;
+  padding: 0 5px;
+  width: 90px;
+  height: 28px;
+  text-align: left;
+}
+.zdh-panel .wrap .refresh {
+  position: absolute;
+  height: 28px;
+  bottom: 2px;
+  padding-left: 77px;
+  text-align: center;
+  color: #505050;
+}

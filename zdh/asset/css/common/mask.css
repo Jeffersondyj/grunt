@@ -1,0 +1,28 @@
+/**
+ * mask.less
+ */
+.screen-wrapper {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+}
+.screen-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.screen-content {
+  position: absolute;
+  width: 200px;
+}
+.screen-loading-img {
+  width: 60px;
+  height: 60px;
+  background: url(../img/loading.gif) no-repeat;
+}

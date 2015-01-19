@@ -1,0 +1,1 @@
+define("common/flags/FlagsDev",["require","exports","module","common/flags/Flag"],function(require){var e=require("common/flags/Flag");return[new e("ENABLE_LOCAL_AJAX",!1,"@author: Yijun Deng, never expired."),new e("ENABLE_LOCAL_LOG",!0,"@author: Yijun Deng, never expired.")]});
